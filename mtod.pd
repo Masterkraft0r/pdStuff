@@ -1,0 +1,6 @@
+#N canvas 866 516 450 300 10;
+#X obj 136 80 inlet;
+#X obj 136 102 expr if($f1>64 \, -($f1-64) \, $f1);
+#X obj 136 124 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
